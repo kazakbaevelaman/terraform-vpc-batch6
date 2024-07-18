@@ -1,5 +1,5 @@
 # terraform-vpc-batch6
-
+```
 module "batch6" {
     source = ""
     version = "1.0.0"
@@ -13,3 +13,4 @@ module "batch6" {
     { cidr = "10.0.3.0/24", subnet_name = "kaizen3" }
     ]
 }
+```
